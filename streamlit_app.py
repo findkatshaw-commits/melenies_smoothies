@@ -1,12 +1,11 @@
-# Import python packages
+# Import python packages & import column funtion
 import streamlit as st
-# import column funtion
 from snowflake.snowpark.functions import col
 # import nutrition information
 import requests  
 
 # Write directly to the app
-st.title(":cup_with_straw: My Parents New Healthy Diner :cup_with_straw:")
+st.title(":cup_with_straw: Customize Smoothie :cup_with_straw:")
 st.write(
   """Choose the fruits you want in your custom Smoothie!
     """
